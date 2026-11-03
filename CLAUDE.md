@@ -22,6 +22,7 @@ npm run preview   # serve o out/ em http://localhost:3201, como a hospedagem
 - O `next.config.ts` liga o `output: 'export'`: o build gera a pasta `out/`, servida como arquivos, sem servidor. Nada de Server Action, Route Handler dinâmico, `cookies()`, `headers()`, middleware ou variável de ambiente: a página tem de sair inteira no build.
 - As imagens entram por import estático com o `next/image`, sem o otimizador (`images.unoptimized`). O `src/types/next-image.d.ts` traz os tipos de imagem para o `tsc` do lint, que roda no CI antes do build.
 - Cada página vira uma pasta com `index.html` (`trailingSlash`): o link interno termina em `/`.
+- Publica no GitHub Pages pelo workflow de CI, a cada push na `main`, com o domínio `biostar4life.com.br` (README, "Publicação"). O repositório é público: nada de segredo, dado de cliente ou e-mail pessoal nele, e os commits saem com o e-mail privado do GitHub (`git config user.email` deste repositório).
 
 ## Visual
 

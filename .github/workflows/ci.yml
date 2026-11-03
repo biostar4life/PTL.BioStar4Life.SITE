@@ -1,9 +1,12 @@
-name: CI
+name: CI e publicação
 
+# A cada push na main, o lint e o build, e o out/ vai para o GitHub Pages em biostar4life.com.br. No pull
+# request, só o lint e o build.
 on:
   pull_request:
   push:
     branches: [main]
+  workflow_dispatch:
 
 permissions:
   contents: read
@@ -25,3 +28,26 @@ jobs:
         run: npm run lint
       - name: Build (HTML estático em out/)
         run: npm run build
+      - name: Guarda o site para a publicação
+        if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: out
+
+  deploy:
+    if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+    needs: verify
+    runs-on: ubuntu-latest
+    # Uma publicação por vez, sem cancelar a que já começou.
+    concurrency:
+      group: pages
+      cancel-in-progress: false
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v5
