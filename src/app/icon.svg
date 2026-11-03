@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+  <defs>
+    <linearGradient id="ring" x1="23.05" y1="7.26" x2="43.00" y2="34.20" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2052b8"/>
+      <stop offset="0.45" stop-color="#8e5fd5"/>
+      <stop offset="1" stop-color="#c969e5"/>
+    </linearGradient>
+  </defs>
+  <path d="M23.05 7.26 A17 17 0 1 1 15.53 37.40" fill="none" stroke="url(#ring)" stroke-width="2.6" stroke-linecap="round"/>
+  <polygon points="18.81,4.75 19.63,6.72 21.76,6.89 20.14,8.28 20.63,10.36 18.81,9.24 16.99,10.36 17.48,8.28 15.86,6.89 17.99,6.72" fill="#8f598c" stroke="#8f598c" stroke-width="0.6" stroke-linejoin="round"/>
+  <polygon points="12.86,9.07 13.68,11.04 15.81,11.21 14.19,12.60 14.68,14.68 12.86,13.56 11.04,14.68 11.53,12.60 9.91,11.21 12.04,11.04" fill="#8f598c" stroke="#8f598c" stroke-width="0.6" stroke-linejoin="round"/>
+  <polygon points="9.39,14.85 10.21,16.82 12.33,17.00 10.71,18.38 11.21,20.46 9.39,19.35 7.56,20.46 8.06,18.38 6.44,17.00 8.57,16.82" fill="#8f598c" stroke="#8f598c" stroke-width="0.6" stroke-linejoin="round"/>
+  <polygon points="8.33,21.52 9.15,23.49 11.28,23.66 9.66,25.05 10.15,27.12 8.33,26.01 6.51,27.12 7.00,25.05 5.38,23.66 7.51,23.49" fill="#8f598c" stroke="#8f598c" stroke-width="0.6" stroke-linejoin="round"/>
+</svg>
