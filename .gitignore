@@ -7,3 +7,6 @@ next-env.d.ts
 .DS_Store
 .upuai/
 .claude/settings.local.json
+
+# impeccable: o brief e as rodadas de design ficam na estação, como no app
+.impeccable/

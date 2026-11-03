@@ -11,9 +11,9 @@ const quicksand = Quicksand({ subsets: ['latin'], variable: '--font-sans' });
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://biostar4life.com.br'),
-  title: 'BioStar4Life · Gestão da beleza',
+  title: 'BioStar4Life · A clínica estética inteira num lugar só',
   description:
-    'A gestão da clínica estética, da agenda ao caixa: agenda por profissional e por sala, prontuário com fotos e termo de consentimento, estoque, pacotes de sessões, caixa e comissão.',
+    'A clínica estética inteira num lugar só: agenda, pacientes, prontuário com fotos e termo de consentimento, estoque, pacotes de sessões, caixa, contas e comissão.',
 };
 
 interface RootLayoutProps {
