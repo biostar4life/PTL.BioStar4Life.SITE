@@ -61,12 +61,7 @@ function Cover() {
           com baixa automática, pacotes de sessões, caixa e comissão. Para uma unidade ou para
           várias, num lugar só.
         </p>
-        <div className="relative flex flex-wrap items-center gap-4">
-          <WhatsappButton />
-          <p className="text-sm text-muted-foreground">
-            A gente mostra o sistema funcionando, na rotina da sua clínica.
-          </p>
-        </div>
+        <WhatsappButton />
       </div>
       <div className="relative h-80 overflow-hidden sm:h-[60dvh] lg:h-auto">
         <Image
