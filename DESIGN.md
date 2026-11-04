@@ -12,39 +12,39 @@ colors:
   border: 'oklch(0.967 0.003 264.542)'
 typography:
   display:
-    fontFamily: 'Quicksand, var(--font-sans), sans-serif'
+    fontFamily: 'Figtree, var(--font-sans), sans-serif'
     fontSize: '3.75rem'
     fontWeight: 700
     lineHeight: 1.05
     letterSpacing: '-0.025em'
   headline:
-    fontFamily: 'Quicksand, var(--font-sans), sans-serif'
+    fontFamily: 'Figtree, var(--font-sans), sans-serif'
     fontSize: '3rem'
     fontWeight: 700
     lineHeight: 1.25
     letterSpacing: '-0.025em'
   title:
-    fontFamily: 'Quicksand, var(--font-sans), sans-serif'
+    fontFamily: 'Figtree, var(--font-sans), sans-serif'
     fontSize: '1.5rem'
     fontWeight: 700
     lineHeight: 1.375
   numeral:
-    fontFamily: 'Quicksand, var(--font-sans), sans-serif'
+    fontFamily: 'Figtree, var(--font-sans), sans-serif'
     fontSize: '3.75rem'
     fontWeight: 700
     lineHeight: 1
   lead:
-    fontFamily: 'Quicksand, var(--font-sans), sans-serif'
+    fontFamily: 'Figtree, var(--font-sans), sans-serif'
     fontSize: '1.125rem'
     fontWeight: 500
     lineHeight: 1.556
   body:
-    fontFamily: 'Quicksand, var(--font-sans), sans-serif'
+    fontFamily: 'Figtree, var(--font-sans), sans-serif'
     fontSize: '1rem'
     fontWeight: 500
     lineHeight: 1.5
   label:
-    fontFamily: 'Quicksand, var(--font-sans), sans-serif'
+    fontFamily: 'Figtree, var(--font-sans), sans-serif'
     fontSize: '0.875rem'
     fontWeight: 500
     lineHeight: 1.43
@@ -107,7 +107,7 @@ components:
 
 **Creative North Star: "A vitrine do próprio sistema"**
 
-O site é a continuação do login do app: o branco sobre a malha de pontos violeta, a foto do lírio em luz rosa sangrando até a borda, a logo do anel e a Quicksand. A prova vem antes da promessa: o que ocupa o espaço são as telas de verdade do BioStar4Life, capturadas da Clínica Demonstração, em janelas claras com o endereço do app na barra. O resto da página é texto grande, listas com fio fino e muito ar.
+O site é a continuação do login do app: o branco sobre a malha de pontos violeta, a foto do lírio em luz rosa sangrando até a borda, a logo do anel e a Figtree. A prova vem antes da promessa: o que ocupa o espaço são as telas de verdade do BioStar4Life, capturadas da Clínica Demonstração, em janelas claras com o endereço do app na barra. O resto da página é texto grande, listas com fio fino e muito ar.
 
 A densidade é baixa e o ritmo é de revista: seções largas que alternam o branco do card e o cinza muito claro do fundo, títulos em peso 700 sem nenhuma etiqueta acima, e o violeta da marca guardado para o que se clica, para os números dos passos e para a faixa cheia do fechamento. Não há cartões de recurso com ícone, métricas, depoimentos ou selos: a página recusa a landing de SaaS genérica, e o produto não tem esses números para mostrar.
 
@@ -118,7 +118,7 @@ O movimento é um só: a captura do Início sobe e assenta uma vez, para quem n�
 - Capturas reais do app em moldura de janela clara, com sombra suave tingida de violeta.
 - Branco e cinza claro alternando por seção, separados só pelo tom e por fios finos.
 - Violeta da marca nos botões em pílula, nos numerais dos passos e na faixa de fechamento.
-- Quicksand: 700 nos títulos, 500 no texto corrido.
+- Figtree: 700 nos títulos, 500 no texto corrido.
 - Listas com fio fino no lugar de grades de cartões.
 - Um único momento de movimento, na capa.
 
@@ -150,10 +150,10 @@ O `--brand-pink` (a marca girada 26° na matiz) está definido no `globals.css` 
 
 ## Typography
 
-**Display Font:** Quicksand (via `next/font`, variável `--font-sans`)
-**Body Font:** Quicksand
+**Display Font:** Figtree (via `next/font`, variável `--font-sans`)
+**Body Font:** Figtree
 
-**Character:** Uma geométrica arredondada só, a mesma do app, macia sem ficar infantil. O texto corrido vai no 500 porque o 400 dela é leve demais no corpo pequeno e no cinza.
+**Character:** Uma geométrica amigável só, a mesma do app (desde 04/11, no lugar da Quicksand), firme e legível no texto pequeno. O texto corrido vai no 500, como no app, para segurar o cinza do corpo pequeno.
 
 ### Hierarchy
 

@@ -28,7 +28,7 @@ npm run preview   # serve o out/ em http://localhost:3201, como a hospedagem
 
 - O sistema visual da página (cores, tipos, molduras, regras com nome) está no `DESIGN.md`, escrito a partir do que foi publicado; o produto, no `PRODUCT.md`. Mudança de visual que fique atualiza o `DESIGN.md` junto.
 - O mesmo design system do app, o `DS.frontend-ui.REACT`, pelo registry `@frontend-ui` do `components.json`: item novo entra com `npx shadcn@4.23.0 add @frontend-ui/<item>`, revisando o diff. Tela usa só os tokens semânticos (`bg-primary`, `text-muted-foreground`), nunca cor crua.
-- A marca é a do app: o `--brand` e o `--brand-pink` no `:root` do fim do `globals.css`, a fonte Quicksand (texto corrido no peso 500), a logo e a foto do lírio em `src/assets`, copiadas do app. Quando o app trocar alguma delas, a cópia daqui acompanha.
+- A marca é a do app: o `--brand` e o `--brand-pink` no `:root` do fim do `globals.css`, a fonte Figtree (texto corrido no peso 500; até 04/11, a Quicksand), a logo e a foto do lírio em `src/assets`, copiadas do app. Quando o app trocar alguma delas, a cópia daqui acompanha.
 
 ## Conteúdo
 

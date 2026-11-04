@@ -33,7 +33,7 @@ Tudo num lugar só (escolha da dona do produto, 03/11/2026): agenda por profissi
 ## Brand Commitments
 
 - O nome BioStar4Life e a linha "Gestão da beleza".
-- Os mesmos do app: a logo do anel em degradê com as quatro estrelas, a foto do lírio (Pexels), o violeta da marca (`--brand`), a fonte Quicksand e a malha de pontos do login.
+- Os mesmos do app: a logo do anel em degradê com as quatro estrelas, a foto do lírio (Pexels), o violeta da marca (`--brand`), a fonte Figtree (desde 04/11, no lugar da Quicksand) e a malha de pontos do login.
 
 ## Evidence on Hand
 
