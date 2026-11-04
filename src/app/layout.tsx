@@ -1,13 +1,13 @@
 import type { Metadata } from 'next';
-import { Quicksand } from 'next/font/google';
+import { Figtree } from 'next/font/google';
 import type { ReactNode } from 'react';
 
 import { cn } from '@/lib/utils';
 
 import './globals.css';
 
-// A Quicksand do app: geométrica e arredondada, com o texto corrido no 500 (globals.css).
-const quicksand = Quicksand({ subsets: ['latin'], variable: '--font-sans' });
+// A Figtree do app (desde 04/11, no lugar da Quicksand), com o texto corrido no 500 (globals.css).
+const figtree = Figtree({ subsets: ['latin'], variable: '--font-sans' });
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://biostar4life.com.br'),
@@ -22,7 +22,7 @@ interface RootLayoutProps {
 
 export default function RootLayout({ children }: RootLayoutProps) {
   return (
-    <html lang="pt-BR" className={cn('font-sans', quicksand.variable)}>
+    <html lang="pt-BR" className={cn('font-sans', figtree.variable)}>
       <body>{children}</body>
     </html>
   );

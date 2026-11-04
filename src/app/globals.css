@@ -178,7 +178,8 @@
   body {
     @apply bg-background text-foreground;
   }
-  /* O texto corrido no 500: o 400 da Quicksand é leve demais no texto pequeno e no cinza. */
+  /* O texto corrido no 500, como no app: desde a Quicksand, cujo 400 era leve demais, e mantido com a
+     Figtree (04/11), que segura o cinza do texto pequeno. */
   html {
     @apply font-sans font-medium;
   }
